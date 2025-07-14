@@ -42,9 +42,14 @@ venv\Scripts\activate
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+
+#INCLUDE THIS
 OPENAI_API_KEY=your_openai_api_key
 HUGGINGFACEHUB_API_TOKEN=your_huggingface_token
+
+#RUNNING
 streamlit run app.py
+```
 🧠 How It Works
 Upload PDFs: User uploads multiple PDF documents.
 
